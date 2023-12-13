@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo img {
+    max-height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.logout {
+    text-decoration: none;
+    color: #fff; /* Change to your preferred color */
+    font-size: 18px;
+}
+
+/* Add these styles to your existing CSS */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h2 {
+    color: #0077b6;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.balance {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.balance h3 {
+    font-size: 24px;
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.balance-amount {
+    font-size: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #0077b6;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #005b91;
+}
